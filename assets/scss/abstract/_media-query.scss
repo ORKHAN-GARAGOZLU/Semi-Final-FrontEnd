@@ -1,0 +1,555 @@
+@media only screen and (max-width: 1199px) {
+  //header
+
+  .col-lg-none{
+    display: none !important;
+  }
+
+
+  //from base
+  .s-title{
+    font-size: 36px !important;
+  }
+
+  //Genius
+
+  .genius{
+    width: 100% !important;
+  }
+
+
+  //banner
+  .banner-bg {
+    height: 800px !important;
+  }
+
+  //video-section
+
+  .v-title{
+    font-size: 90px !important;
+
+  }
+  .play-btn{
+    color: red;
+    padding: 30px 33px !important;
+    font-size: 20px !important;
+  }
+  .video-player{
+    iframe{
+      width: 500px !important;
+    }
+  }
+
+  //businnes-growth
+  .businnes-growth-header{
+    margin-top: -130px !important;
+
+  }
+
+  // Revolutionary
+
+  .revolutionary-img{
+    left: -24% !important;
+    top: -11% !important;
+    
+    // img{
+    //     width: 68%;
+    // }
+  }
+
+  // footer{
+    .foot-head-right{
+      
+
+      input{
+          
+        max-width: 365px !important;
+      }
+  }
+
+  
+}
+
+
+@media only screen and (max-width: 991px) {
+  
+  .banner-words{
+    top: 21% !important;
+
+    .title {
+      font-size: 80px !important;
+      margin: 30px 0px !important;
+
+  
+      .word{
+        font-size: 60px !important;
+      }
+    }
+    .thrive {
+      margin-left: 0 !important;
+    }
+  }
+
+  //from base
+
+  .s-title{
+    font-size: 24px !important;
+  }
+
+  //video-section
+
+  .v-title{
+    font-size: 60px !important;
+
+  }
+
+  .play-btn{
+    color: red;
+    padding: 20px 23px !important;
+    font-size: 15px !important;
+  }
+
+  //team-member
+  .title{
+    font-size: 26px !important;
+  }
+
+  .posission{
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  //customer-testimonials
+  .customer{
+    width: 100% !important;
+  }
+
+  //revolutionary
+
+  .col-md-none{
+    display: none;
+  }
+
+  //footer
+
+
+  //call-us
+
+  
+  .mt-20{
+    margin-bottom: 20px;
+  }
+   
+
+}
+
+
+@media only screen and (max-width: 767px) {
+  // banner 
+
+  .banner-bg {
+    height: 700px;
+    background-position: center;
+
+    .banner-words{
+      top: 21% !important;
+  
+      .title {
+        font-size: 62px !important;
+        margin: 50px 0px !important;
+        line-height: 50px !important;
+  
+    
+        .word{
+          font-size: 50px !important;
+        }
+      }
+      .thrive {
+        margin-left: 0 !important;
+      }
+    }
+
+    .banner-animation{
+      top: 110% !important;
+    }
+  }
+
+
+
+  //from base
+  .s-title{
+    font-size: 22px !important;
+  }
+
+  //businness
+  .businnes-section {
+    padding: 60px 0;
+  }
+
+  
+
+  //more-about-us
+
+  .more-about-us-img img {
+    min-width: 100% !important;
+  }
+
+  .more-about{
+    display: block !important;
+
+    .more-left{
+      border-right: none !important;
+    }
+    
+    .more-right{
+        margin-top: 10px;
+    }
+    
+  }
+
+  // Why-choose-us
+
+  .why-choose{
+    width: 100% !important;
+  }
+
+  //video-section
+
+  .v-title{
+    font-size: 36px !important;
+    line-height: 0 !important;
+
+  }
+  .play-btn{
+    color: red;
+    padding: 16px 19px !important;
+    font-size: 12px !important;
+  }
+
+  //team-member
+
+  .content-inner {
+    bottom: -61% !important;
+    right: -32% !important;
+    width: 100% !important;
+    bottom: 0 !important;
+    right: 0 !important;
+    height: auto !important;
+    border-radius: 0 !important;
+
+    .text{
+      padding: 12px !important ;
+      margin: 0 !important;
+    }
+  }
+  
+
+  
+  
+  .fin-prof{
+    font-size: 24px !important;
+  }
+
+  // businnes-growth
+
+  .businnes-growth-header{
+    margin-top: -70px !important;
+  }
+
+  // lets-work-together
+
+  .lets-work-items{
+    display: flex;
+    align-items: center;
+    flex-direction: column !important;
+    justify-content: center;
+  }
+
+  //footer
+  .footer-header{
+    border-radius: 10px !important;
+  }
+
+  .foot-head-right{
+    padding: 0px 0px !important;
+    
+    input{
+        
+      max-width: 60% !important;
+      margin-left: 80px;
+    }
+    .btn{
+      right: 70px !important;
+    }
+  }
+
+
+}
+
+
+
+@media only screen and (max-width: 575px) {
+  //header
+  .col-sm-none{
+    display: none;
+  }
+  
+
+  //banner
+  .banner-bg {
+    height: 600px;
+    background-position: center;
+  }
+
+  
+  .banner-animation{
+    top: 80% !important;
+    left: -25% !important;
+  }
+
+  .banner-words{
+    top: 21% !important;
+
+    .title {
+      font-size: 62px !important;
+      margin: 50px 0px !important;
+
+  
+      .word{
+        font-size: 40px !important;
+      }
+    }
+    .thrive {
+      margin-left: 0 !important;
+    }
+  }
+  
+
+  //businnes
+  .bst{
+    display: flex ;
+    flex-direction: column !important;
+  }
+
+  
+
+  // more-about-us
+
+  .more-items{
+    display: block !important;
+  }
+
+  .more-about-us-img img {
+    display: none;
+  }
+
+  
+
+
+  .v-title{
+    font-size: 26px !important;
+    line-height: 0px !important;
+
+  }
+  .play-btn{
+    color: red;
+    padding: 30px 33px !important;
+    font-size: 20px !important;
+  }
+
+  //video-section
+
+  .v-title{
+    font-size: 26px !important;
+
+  }
+  
+  .play-btn{
+    color: red;
+    padding: 15px 18px !important;
+    font-size: 10px !important;
+  }
+
+  //team-member
+
+  .team-members-bg-img{
+    img{
+      height: 450px;
+    }
+  }
+  
+  .member{
+    max-width: 100% !important;
+
+    img{
+      max-width: 100% !important;
+    }
+
+    // .content-inner {
+    //   bottom: -35% !important;
+    //   right: 17% !important;
+    //   border-radius: 0 !important;
+    // }
+  }
+
+  .businnes-growth-header{
+    margin-top: -60px !important;
+  }
+
+  // footer
+
+  .footer-header{
+    border-radius: 5px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    // max-width: 80% !important;
+  }
+  // .foot-head-right{
+  //   padding: 0px 0px !important;
+    
+  //   input{
+        
+  //     max-width: 30% !important;
+  //     margin-left: 80px;
+  //   }
+  //   .btn{
+  //     right: 70px !important;
+  //   }
+  // }
+
+  
+}
+
+
+
+@media only screen and (min-width: 480px){
+  // banner
+  
+  // .banner-words{
+  //   top: 30% !important;
+
+  //   .title {
+  //     font-size: 20px !important;
+  //     margin: 20px 0px !important;
+
+  //     line-height: 40px !important;
+
+  //     .word{
+  //       font-size: 20px !important;
+  //     }
+  //   }
+
+  //   .content-inner {
+  //     bottom: -20% !important;
+  //     right: 17% !important;
+  //   }
+
+  // }
+
+  .banner-animation{
+    top: 110% !important;
+  }
+
+  // businnes
+
+  .businnes-section {
+    padding: 40px 0 !important;
+
+    .btn{
+      margin-left: -80px;
+    }
+  }
+  
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .more-about-us-img img {
+    min-width: 100% !important;
+  } 
+  
+}
+
+
+
+@media only screen and (min-width: 120px) and (max-width: 1400px) {
+  // .businnes-bg {
+  //   height: 800px;
+
+  // }
+}
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+  .team-members-bg {
+    height: auto !important;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .team-members-bg {
+    height: auto !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .team-members-bg {
+    height: auto !important;
+  }
+
+  .foot-head-right{
+    padding: 0px 0px !important;
+    
+    input{
+        
+      max-width: 100% !important;
+      margin-left: 80px;
+    }
+    .btn{
+      right: 0 !important;
+    }
+  }
+
+  //revolutionary
+
+  // .revolutionary-img{
+  //   position: relative;
+  //   left: -10%;
+  //   top: -3%;
+    
+  //   img{
+  //       width: 120%;
+  //   }
+  // }
+
+  // footer
+  .footer-header{
+    border-radius: 20px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .team-members-bg {
+    height: auto !important;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .revolutionary-img{
+    left: -24% !important;
+    top: -11% !important;
+    
+    // img{
+    //     width: 68%;
+    // }
+  }
+
+  // footer{
+  .foot-head-right{
+    
+    input{
+        
+      width: 455px !important;
+    }
+  }
+}
+

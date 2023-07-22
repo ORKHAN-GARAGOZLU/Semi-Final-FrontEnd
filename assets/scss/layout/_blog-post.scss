@@ -1,0 +1,65 @@
+.blog-post{
+    font-family: $Red-Hat-Display;
+
+    .blog-post-p{
+        margin: auto;
+
+        .pentagon-blog-post{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        
+
+    }
+
+    .blog-post-items{
+        background: linear-gradient(180deg, rgba(235, 235, 235, 0) 0%, #F7F7F7 100%);
+        border-radius: 20px;
+        padding: 30px;
+
+        .name{
+            padding: 10px 0px;
+            color: $grey;
+            .main{
+                color: $color-red;
+            }
+        
+        }
+
+        .read-more{
+            font-weight: 800;
+            color: $dark-jungle;
+
+            &:hover{
+                color: $color-red;
+            }
+        }
+
+        .blog-post-p{
+            position: relative;
+
+            img{
+                width: 100%;
+                transition: 0.3s;
+            }
+
+
+            .badge{
+                position: absolute;
+                bottom: 11px;
+                right: 0px;
+
+                span{
+                    background: #B00F0F;
+                    border-radius: 20px 0px;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 21px;
+                    padding: 7px 13px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.lets-work{
+    font-family: $DM-Sans;
+    margin-top: 35px;
+    background-color: #000000cc;
+    color: white;
+    .lets-work-items{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 90px 0;
+    }
+}
+.bg-lets-work{
+    background-image: url(../../../assets/images/lets-work-together/02.jpg);
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-position: center;
+    object-fit: contain;
+    background-size: cover;
+}

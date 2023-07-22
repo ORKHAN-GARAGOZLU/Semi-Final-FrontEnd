@@ -1,0 +1,47 @@
+.banner-bg{
+    font-family: $Red-Hat-Display;
+    background-image: url(../../../assets/images/banner/banner-11.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1150px;
+
+
+    .banner-animation{
+        position: absolute;
+        top: 100%;
+        left: -2%;
+        animation: upDown 4s linear infinite;
+    }
+
+    .banner-words{
+       top: 30%;
+       position: absolute;
+       
+
+       .title{
+        margin: 150px 0px;
+        font-weight: 700;
+        font-size: 110px;
+        line-height: 90px;
+        color: #181A1C;
+        margin-bottom: 40px;
+
+            .word{
+                font-size: 60px;
+            }
+
+            .red-word{
+                color: $color-red;
+            }
+        }
+       .thrive{
+        @extend .font-lg;
+        margin: 20px 0px;
+        margin-left: 50px;
+       }
+
+       
+        
+    }
+
+}

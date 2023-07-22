@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap');
+
+.blur{
+    filter: blur(5px);
+}
+
+//Padding all section
+.p-all{
+    padding: 120px 0;
+}
+
+.p-70{
+    padding: 70px 0;
+}
+
+
+//Pentagon-style
+
+
+.p-r-70{
+    padding-right: 70px;
+}
+
+.s-title{
+    margin-top: 15px;
+    @extend .font-xx-lg;
+}
+
+.b-p{
+    color: $grey;
+    font-weight: 400;
+    font-family: $DM-Sans;
+    line-height: 26px;
+    padding: 15px 0;
+}
+
+.b-title{
+    @extend .font-lg;
+    color: $dark-jungle;
+}
+
+.m-auto{
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+// words design
+
+.thrive{
+    font-family: $DM-Sans;
+    color: $grey;
+    font-weight: 400;
+}
+
+.pentagon-style{
+    display: flex;
+    align-items: center;
+
+    .pentagon-word{
+        color: $color-red;
+        font-weight: 500;
+    }
+}
+
+.pentagon-word{
+    color: $color-red;
+    font-weight: 500;
+}
+
+.footer-foot-title{
+    font-family: $Red-Hat-Display;
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+}

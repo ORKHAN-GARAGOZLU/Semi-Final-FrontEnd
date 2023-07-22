@@ -1,0 +1,56 @@
+.background-second{
+    background-image: url(../../../assets/images/customer-testimonials/bg-shape-2.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.customer-testimonials{
+    font-family: $DM-Sans;
+    .cus-test{
+        margin: auto;
+
+        .pentagon-customer{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .customer{
+        width: 33.33%;
+        margin-right: 1px;
+        padding: 0px 15px;
+        margin-top: 50px;
+
+        .customer-items{
+            background: linear-gradient(180deg, rgba(235, 235, 235, 0) 0%, #F7F7F7 100%);
+            border-radius: 20px;
+            padding: 80px 40px 40px 40px;
+            position: relative;
+            text-align: left;
+            border: 1px solid #EFEFEF;
+
+            img{
+                position: absolute;
+                top: -40px;
+
+            }
+
+            .underline{
+                padding-bottom: 20px;
+                border-bottom: 1px solid #ECECF2;
+            }
+
+            .stars{
+                border: 1px solid white;
+                box-shadow: 0px 4px 40px #DDE3E9;
+                border-radius: 40px;
+                padding: 7px 12px;
+
+                i{
+                    color: #ffae00;
+                }
+            }
+        }
+    }
+}

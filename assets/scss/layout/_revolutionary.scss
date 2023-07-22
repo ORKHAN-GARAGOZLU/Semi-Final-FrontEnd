@@ -1,0 +1,44 @@
+.revolutionary{
+    position: relative;
+    font-family: $Red-Hat-Display;
+
+    .revolutionary-animation{
+        position: absolute;
+        right: -135px;
+        bottom: 0;
+        animation: Rotate-img 4s linear infinite;
+
+        img{
+            width: 100%;
+            
+        }
+    }
+
+    .revolutionary-img{
+        position: absolute;
+        left: -10%;
+        top: -31%;
+        
+        img{
+            width: 68%;
+        }
+    }
+
+    .revolutionary-items{
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.12) 0%, #D9D9D9 100%);
+        border: 1px solid #DCDCDC;
+        border-radius: 20px;
+        padding: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .rev-word{
+        padding: 30px 0px;
+    }
+
+    .btn{
+        margin: 10px 0px;
+    }
+}

@@ -1,0 +1,95 @@
+.businnes-growth-header{
+    font-family: $DM-Sans;
+    z-index: 50;
+    margin-top: -200px;
+}
+
+.businnes-growth-img{
+    img{
+        width: 100%;
+    }
+}
+
+.bg-businnes-growth{
+    &::after{
+        content: "";
+        position: absolute;
+        background-image: url(../../../assets/images/businnes-growth/shape2.png);
+        height: 100%;
+        width: 100%;
+        top: -64%;
+        right: -56%;
+        z-index: 0;
+        background-repeat: no-repeat;
+        transition: 0.3s;
+    }
+    
+
+    &:hover::after {
+        top: -83px;
+        right: -55%;
+    }
+}
+
+
+
+.businnes-growth{
+    font-family: $DM-Sans;
+    position: relative;
+    z-index: 1;
+    border-radius: 20px;
+    width: 100%;
+    overflow: hidden;
+
+    .businnes-growth-img{
+        img{
+            width: 100%;
+        }
+    }
+
+    
+
+    .businnes-growth-words{
+        position: absolute;
+        text-align: center;
+        bottom: 35px;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 35px;
+        width: 84%;
+        background: white;
+        border-radius: 20px;
+        overflow: hidden;
+        z-index: 10;
+
+        span{
+            color: $dark-jungle;
+            @extend .font-sm;
+            position: relative;
+
+            &::after {
+                position: absolute;
+                content: "";
+                background-image: url(../../../assets/images/businnes-growth/03.png);
+                height: 58px;
+                width: 58px;
+                bottom: -85px;
+                left: -144px;
+                transition: 0.3s;
+            }
+
+        }
+
+    }
+}
+
+.bg-businnes-growth:hover span::after {
+    bottom: -61px;
+    left: -124px;
+}
+
+.bg-businnes-growth:hover img {
+    scale: 1.1;
+}
+
+  

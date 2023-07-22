@@ -1,0 +1,120 @@
+.background-all{
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 20%, rgba(248,247,247,1) 50%, rgba(255,255,255,1) 80%);
+    
+}
+.more-ab{
+    padding: 70px 0;
+}
+.more-about-us{
+
+    position: relative;
+    font-family: $Red-Hat-Display;
+    overflow: hidden;
+    margin-bottom: 40px;
+
+    .more-items{
+        padding: 30px;
+        background: white;
+        box-shadow: 0px 4px 58px rgba(0, 0, 0, 0.08);
+        border-left: 7px solid $color-red;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .single-check{
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+
+            i{
+                margin-right: 15px;
+                color: $color-red;
+            }
+
+        }
+        span{
+            font-weight: 500;
+            @extend .font-md;
+            line-height: 18px;
+            margin-bottom: 7px;
+            color: $grey;
+        }
+
+        
+    }
+
+    .more-about{
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+
+        .more-left{
+            display: flex;
+            align-items: center;
+            margin-right: 50px;
+            border-right: 1px solid #EBEBEB;
+            padding-right: 50px;
+
+            .tl{
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 26px;
+                margin-bottom: 5px;
+            }
+
+            img{
+                margin-right: 16px;
+            }
+
+            span{
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 18px;
+                color: $color-red;
+            }
+
+        }
+
+        .more-right{
+            display: flex;
+            align-items: center;
+
+            span{
+                display: block;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 18px;
+                margin-bottom: 7px;
+                color: #5D666F;
+            }
+
+            img{
+                margin-right: 16px;
+            }
+
+            .number{
+                font-weight: 700;
+                @extend .font-lg;
+                line-height: 26px;
+                color: $dark-jungle;
+                transition: 0.3s;
+
+                &:hover{
+                    color: $color-red;
+                }
+            }
+        }
+    }
+
+    .more-about-us-img {
+        margin-top: -180px;
+        margin-left: -160px;
+        margin-bottom: -157px;
+    }
+
+    .more-about-us-img img {
+        position: relative;
+        min-width: 140%;
+    }
+}

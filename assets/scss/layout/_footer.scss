@@ -1,0 +1,117 @@
+.footer-bg{
+    font-family: $Red-Hat-Display;
+    background: #0E1422;
+
+    .pad{
+        padding: 50px 0px;
+    }
+
+    .footer-header{
+        background-image: url(../../../assets/images/footer/footer-img.png);
+        background-repeat: no-repeat;
+        background-color: #DF0A0A;
+        background-blend-mode: multiply;
+        overflow: hidden;
+        border-radius: 100px;
+        background-position: center;
+        object-fit: contain;
+        background-size: cover;
+
+        .foot-head-left{
+            margin-left: 80px;
+            padding: 45px 0;
+
+            .left-word{
+                color: white;
+                @extend .font-sm;
+            }
+
+            .left-word-2{
+                @extend .font-x-lg;
+                font-weight: 700;
+                color: white;
+            }
+        }
+
+        .foot-head-right{
+            position: relative;
+            padding: 60px 0;
+
+            input{
+                background: #FFFFFF;
+                border-radius: 100px;
+                height: 55px;
+                width: 547px;
+                color: #000;
+                padding: 0 186px 0 25px;
+            }
+
+            .btn{
+                position: absolute;
+                padding: 19px 30px;
+                max-width: max-content;
+                right: 90px;
+
+            }
+        }
+    }
+
+    .line-title{
+        margin-bottom: 25px;
+    }
+
+    .quick-links-items{
+        color: $grey;
+        font-weight: 400;
+        @extend .font-sm;
+
+        li{
+            margin-bottom: 12px;
+        }
+
+
+    }
+
+    .footer-middle{
+        background: linear-gradient(180deg, #0E1422 -4.66%, #212631 100%);
+        border-radius: 15px;
+        padding: 20px;
+        margin-top: -40px;
+        margin: -40px 30px 0 30px;
+        color: white;
+        font-weight: 400;
+        font-size: 18px;
+
+        .day{
+            margin-bottom: 31px;
+        }
+
+        a{
+            margin-top: 30px;
+        }
+    }
+
+    .left-img{
+        margin-right: 15px;
+        margin-bottom: 20px;
+    }
+
+    .right{
+
+        color: $grey;
+        .b-title{
+            color: white;
+            font-weight: 500;
+            font-size: 17px;
+
+        }
+
+        .a{
+            color: red;
+        }
+    }
+
+    
+
+
+}

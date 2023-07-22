@@ -1,0 +1,133 @@
+header{
+    position: relative !important;
+}
+
+// contact- us
+
+.contact-us-bg{
+    background-image: url(../../../assets/images/contact/01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 153px;
+    padding-bottom: 153px;
+    font-family: $Red-Hat-Display;
+    
+
+    .contact-title{
+        font-size: 60px;
+        color: white;
+    }
+
+    .home-contact{
+        padding: 12px 30px;
+        background: white;
+        border-radius: 31px;
+        box-shadow: 0px 9px 18px rgba(24, 16, 16, 0.05);
+        max-width: max-content;
+        margin-left: auto;
+
+        a{
+            color: $grey;
+            font-weight: 700;
+        }
+
+        span{
+            color: $color-red;
+        }
+
+        .second{
+            color: $dark-jungle;
+            font-weight: 700;
+        }
+    }
+}
+
+// Call-us
+
+.call-us{
+    font-family: $Red-Hat-Display;
+
+    .call-us-items{
+        border: 1px solid #F0F0F0;
+        border-radius: 15px;
+        height: 100%;
+
+        .call-us-img{
+
+            img{
+                width: 100%;
+                transition: 0.3s;
+                vertical-align: middle;
+
+            }
+        }
+
+        .call-us-inner{
+            
+            padding: 40px;
+            background-color: #ffecec;
+
+            .icon{
+                margin-right: 20px;
+            }
+
+            .info{
+                span{
+                    color: $color-red;
+                    font-weight: 500;
+                }
+
+                h5{
+                    font-weight: 700;
+                    font-size: 24px;
+                    color: $dark-jungle;
+                }
+            }
+        }
+    }
+}
+
+//Get in Touch
+
+.getin-touch{
+    box-shadow: 0px 24px 39px rgba(0, 0, 0, 0.05);
+
+    &::after{
+        position: absolute;
+    content: "About Us";
+    left: -14%;
+    top: -39%;
+    color: #ffffff;
+    background-color: #000;
+    background-size: 100% 100%;
+    -webkit-text-stroke: 0.5px transparent;
+    font-size: 150px;
+    height: 100%;
+    max-width: max-content;
+    max-height: max-content;
+    font-weight: 900;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    opacity: 0.35;
+    font-family: 500;
+    }
+
+    .get-in-touch{
+        position: relative;
+        z-index: 1;
+    }
+
+    
+}
+
+.contact-touch::after {
+    content: "Contact Us";
+    left: 49%;
+    transform: translateX(-50%);
+    z-index: -1;
+    height: 109px;
+    top: -40%;
+    min-width: max-content;
+}
